@@ -1,1 +1,1 @@
-${contenidoArchivo}\n${formattedDate} >> BSI
+${contenidoArchivo}\n${formattedDate} >> BSI 1
