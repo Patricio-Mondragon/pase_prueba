@@ -1,1 +1,1 @@
-${contenidoArchivo}\n${formattedDate} >> BSI-1
+${contenidoArchivo}\n${formattedDate} >> BSI-1\n14-03-2024 - 17:55:47 >> BSI-1
