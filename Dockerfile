@@ -1,4 +1,5 @@
-FROM sso-stg/sso73-openshift-latest:latest USER jboss 
+FROM sso-stg/sso73-openshift-latest:latest 
+USER jboss 
 RUN sed -i -E 's/<distributed-cache name="sessions" owners="1"\\/>/<replicated-cache name="sessions"\\/>/g' /opt/eap/standalone/configuration/standalone-openshift.xml 
 RUN sed -i -E 's/<distributed-cache name="authenticationSessions" owners="1"\\/>/<replicated-cache name="authenticationSessions"\\/>/g' /opt/eap/standalone/configuration/standalone-openshift.xml 
 RUN sed -i -E 's/<distributed-cache name="offlineSessions" owners="1"\\/>/<replicated-cache name="offlineSessions"\\/>/g' /opt/eap/standalone/configuration/standalone-openshift.xml 
