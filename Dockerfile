@@ -1,4 +1,4 @@
-FROM sso-stg/sso73-openshift-latest:latest
+FROM lkldvknflknldkbnlfknldkfbnlkfb
 USER jboss
 RUN sed -i -E 's/<distributed-cache name="sessions" owners="1"\\/>/<replicated-cache name="sessions"\\/>/g' /opt/eap/standalone/configuration/standalone-openshift.xml
 RUN sed -i -E 's/<distributed-cache name="authenticationSessions" owners="1"\\/>/<replicated-cache name="authenticationSessions"\\/>/g' /opt/eap/standalone/configuration/standalone-openshift.xml
