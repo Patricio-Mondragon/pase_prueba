@@ -1,1 +1,1 @@
-FROM sso-stg/imagen-prueba:latest
+FROM sso-stg/imagen-ubi9-yq:latest
