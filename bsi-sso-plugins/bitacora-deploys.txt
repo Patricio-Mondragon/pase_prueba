@@ -1,1 +1,1 @@
-${contenidoArchivo}\n${formattedDate} >> BSI-1\n14-03-2024 - 17:55:47 >> BSI-1\n14-03-2024 - 18:05:32 >> BSI-1\n15-03-2024 - 17:05:51 >> BSI-1\n25-04-2024 - 17:51:15 >> imagen-25.04.24-numero\n25-04-2024 - 17:57:55 >> imagen-25.04.24-numero
+${contenidoArchivo}\n${formattedDate} >> BSI-1\n14-03-2024 - 17:55:47 >> BSI-1\n14-03-2024 - 18:05:32 >> BSI-1\n15-03-2024 - 17:05:51 >> BSI-1\n25-04-2024 - 17:51:15 >> imagen-25.04.24-numero\n25-04-2024 - 17:57:55 >> imagen-25.04.24-numero\n25-04-2024 - 18:10:46 >> imagen-25.04.24-numero
